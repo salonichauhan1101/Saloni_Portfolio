@@ -1,7 +1,12 @@
+import NavBar from "./components/NavBar";
+import NavBar from "./components/Home";
+
+
 function App() {
   return (
     <div>
-    <h1 className="text-3xl font-bold underline font-signature">Hello!</h1>
+      <NavBar/>
+      <Home/>
     </div>
   );
 }
